@@ -15,7 +15,7 @@ public class UserController {
 		return "user/insert";
 	}
 
-	// update - 업데이트
+	// update
 	@RequestMapping("/user/update.do")
 	public String update() {
 		logger.info("url ==> update.do");
