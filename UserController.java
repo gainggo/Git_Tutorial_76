@@ -15,4 +15,11 @@ public class UserController {
 		return "user/insert";
 	}
 
+	// update
+	@RequestMapping("/user/update.do")
+	public String update() {
+		logger.info("url ==> update.do");
+		return "user/update";
+	}
+
 }
