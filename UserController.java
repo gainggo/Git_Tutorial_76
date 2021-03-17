@@ -22,7 +22,7 @@ public class UserController {
 		return "user/update";
 	}
 
-	// delete
+	// delete 입니다.
 	@RequestMapping("/user/delete.do")
 	public String delete() {
 		logger.info("url ==> delete.do"):
